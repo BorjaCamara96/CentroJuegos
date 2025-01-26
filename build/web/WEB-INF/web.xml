@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>ActualizarCarro</servlet-name>
+        <servlet-class>despliegue.Game.ActualizarCarro</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Sesion</servlet-name>
+        <servlet-class>despliegue.Game.Sesion</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Insertar</servlet-name>
+        <servlet-class>despliegue.Game.Insertar</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Modificar</servlet-name>
+        <servlet-class>despliegue.Game.Modificar</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Eliminar</servlet-name>
+        <servlet-class>despliegue.Game.Eliminar</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ActualizarCarro</servlet-name>
+        <url-pattern>/actualizarCarro</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Sesion</servlet-name>
+        <url-pattern>/sesion</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Insertar</servlet-name>
+        <url-pattern>/insertar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Modificar</servlet-name>
+        <url-pattern>/modificar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Eliminar</servlet-name>
+        <url-pattern>/eliminar</url-pattern>
+    </servlet-mapping>
+</web-app>
