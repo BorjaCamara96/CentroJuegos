@@ -15,41 +15,41 @@ El proyecto Centro Juegos es una aplicación web desarrollada en Java utilizando
 - 
 ## 🚀 Funcionalidades Principales
 
-- 🏠 **Página de Inicio** <br>
+- 🏠 **Página de Inicio** 
 
 Una página de bienvenida que muestra las categorías de videojuegos disponibles y las ofertas destacadas.
 
-- 👤 **Gestión de Usuarios** <br>
+- 👤 **Gestión de Usuarios** 
 
 📝 Registro: Los usuarios pueden registrarse proporcionando información básica (nombre, email, contraseña, etc.). <br>
 🔑 Autenticación: Ingreso de usuarios con verificación de credenciales. Uso de sesiones para mantener el estado de usuario autenticado. <br>
 🛠️ Perfil de Usuario: Los usuarios pueden ver y editar su perfil, así como su historial de compras. <br>
 
-- 🎮 **Catálogo de Videojuegos** <br>
+- 🎮 **Catálogo de Videojuegos** 
 
 🔍 Visualización: Lista de videojuegos con detalles como nombre, descripción, precio y disponibilidad. <br>
 🔎 Búsqueda y Filtrado: Opciones para buscar videojuegos por título, género, plataforma, etc. <br>
 📄 Detalles del Producto: Página detallada para cada videojuego, con información adicional y la opción de añadir al carrito. <br>
 
-- 🛒 **Gestión del Carrito de Compras** <br>
+- 🛒 **Gestión del Carrito de Compras** 
 
 ➕ Añadir al Carrito: Los usuarios pueden agregar videojuegos al carrito. <br>
 🛍️ Visualización del Carrito: Lista de productos en el carrito, con la opción de modificar cantidades o eliminar artículos. <br>
 💳 Checkout: Proceso para realizar la compra, con recopilación de información de envío y pago. <br>
 
-- 📦 **Gestión del Stock** <br>
+- 📦 **Gestión del Stock**
 
 🔧 Administración: Interfaz para administradores para agregar, actualizar o eliminar videojuegos del stock. <br>
 🔄 Actualización Automática: Reducción automática del stock al realizar una compra. <br>
 
-- 🗄️ **Base de Datos** <br>
+- 🗄️ **Base de Datos** 
 
 👥 Usuarios: Tabla para almacenar información de usuarios (id, nombre, email, contraseña, etc.). <br>
 🎮 Videojuegos: Tabla para almacenar información de videojuegos (id, título, descripción, género, precio, stock, etc.). <br>
 🕹️ Consolas: Tabla para almacenar información de consolas (id, nombre, fabricante, etc.). <br>
 📅 Generaciones de Videojuegos: Tabla para almacenar información de generaciones de videojuegos (id, generación, año_lanzamiento, etc.). <br>
 
-- 🔐 **Gestión de Sesiones** <br>
+- 🔐 **Gestión de Sesiones** 
   
 🔓 Inicio de Sesión: Creación de una sesión al autenticar al usuario. <br>
 💼 Mantenimiento de Sesión: Mantenimiento del estado de la sesión para funcionalidades personalizadas (perfil, historial, carrito, etc.). <br>
